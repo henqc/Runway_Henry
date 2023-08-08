@@ -1,0 +1,83 @@
+.container-fluid {
+  height: 64px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+a {
+  text-decoration: none;
+}
+
+.runway-name {
+  margin-left: 8.2px;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  color: black;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.runway-logo {
+  width: 27.69px;
+  height: 30px;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+}
+
+.navlinks {
+  margin-left: 7.2%;
+  display: flex;
+  width: 664px;
+  align-items: center;
+  padding-left: 10.6%;
+  display: flex;
+  padding-right: 10.6%;
+  justify-content: center;
+}
+
+.runway-home {
+  margin-left: 11.1%;
+  display: flex;
+  align-items: center;
+}
+
+.navlink {
+  color: rgba(35, 31, 32, 0.5);
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 75px;
+}
+
+.navlink-right {
+  color: rgba(35, 31, 32, 0.5);
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.logintext {
+  margin-left: 8.8%;
+  margin-right: 11.1%;
+  border-radius: 6px;
+  background: #0b6fff;
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 97px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}

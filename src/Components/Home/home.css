@@ -1,0 +1,933 @@
+.home-title-container {
+  margin-top: 46px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-title-text {
+  color: #231f20;
+  text-align: center;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 102.4%;
+  width: 500px;
+}
+
+.home-title-subtext-container {
+  margin-top: 38px;
+  height: 98px;
+  display: flex;
+  justify-content: center;
+}
+
+.home-title-subtext {
+  color: rgba(35, 31, 32, 0.75);
+  text-align: center;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  width: 675px;
+}
+
+.home-title-subtext-bottom {
+  color: rgba(35, 31, 32, 0.75);
+  text-align: center;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 8px;
+}
+
+.home-start-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-runway-questions-button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-start-button-container-description {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.home-start-button-container-prestige {
+  display: flex;
+  flex-direction: row;
+  margin-top: 37px;
+  justify-content: right;
+}
+
+.home-start-button-left {
+  display: flex;
+  width: 152px;
+  height: 45px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  border-radius: 6px;
+  background: #0b6fff;
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  border: none;
+}
+
+.home-start-button-right {
+  margin-left: 20px;
+  border-radius: 6px;
+  border: 1px solid #0b6fff;
+  background: #fff;
+  display: flex;
+  width: 152px;
+  height: 45px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  color: #0b6fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.black-blue-bg {
+  background-image: url("./blackbluebg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  margin-top: 106px;
+  padding-top: 50px;
+}
+
+.home-blue-bg-title {
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 44.5px; /* 127.143% */
+  letter-spacing: -0.525px;
+  text-align: center;
+}
+
+.home-blue-bg-sub-title {
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 5px;
+}
+
+.home-skill-box-image-container {
+  width: 66px;
+  height: 66px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  position: relative;
+  margin-left: 22px;
+}
+
+.home-skill-box-bg {
+  width: 268px;
+  height: 175px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(246, 249, 252, 0.1);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(22.5px);
+  margin-top: -33px;
+  z-index: 1;
+  position: relative;
+}
+
+.home-skill-box-description-title {
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 46px;
+  margin-left: 22px;
+}
+
+.home-skill-box-description {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 6px;
+  width: 228px;
+}
+
+.home-skill-box-description-container {
+  margin-top: 20px;
+  margin-left: 22px;
+}
+
+.home-skill-box-container {
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-skill-box {
+  margin-left: 1.04%;
+}
+
+.home-sponsor-container {
+  height: 88px;
+  background: #f6f9fc;
+  display: flex;
+  align-items: center;
+}
+
+.home-sponsor-text {
+  color: #585657;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 102.4%; /* 24.576px */
+  margin-left: 21.46%;
+}
+
+.home-sponsor-divider {
+  margin-left: 6.528%;
+}
+
+.home-sponsor-x-create {
+  margin-left: 6.58%;
+}
+
+.home-sponsor-atlanta-village {
+  margin-left: 6.68%;
+}
+
+.home-sponsor-atdc {
+  margin-left: 5.96%;
+}
+
+.home-runway-design-box-student {
+  width: 270.28px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #f6f9fc;
+  background: rgba(246, 249, 252, 0.85);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+.home-runway-design-box-title-student {
+  color: #231f20;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.4%; /* 20.48px */
+  margin-top: 21.14px;
+  width: 80%;
+}
+
+.home-runway-design-box-title-university {
+  color: #231f20;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.4%; /* 20.48px */
+  margin-top: 21.14px;
+  width: 80%;
+}
+
+.home-runway-design-box-title-assessment {
+  color: #231f20;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.4%; /* 20.48px */
+  margin-top: 21.14px;
+  width: 80%;
+}
+
+.home-runway-design-box-title-algorithm {
+  color: #231f20;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 102.4%; /* 20.48px */
+  margin-top: 21.14px;
+  width: 50%;
+}
+
+.home-runway-design-box-description {
+  color: rgba(35, 31, 32, 0.75);
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  margin-top: 24px;
+}
+
+.home-runway-design-box-row-top {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-runway-design-box-row-bottom {
+  margin-top: 22px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-runway-design-box-university {
+  width: 270.28px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #f6f9fc;
+  background: rgba(246, 249, 252, 0.85);
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  margin-left: 22px;
+}
+
+.home-runway-prestige-box-university {
+  width: 267px;
+  height: 136px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #e8e8e8;
+  background: #fff;
+  box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.05);
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-runway-design-box-assessment {
+  width: 270.28px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #f6f9fc;
+  background: rgba(246, 249, 252, 0.85);
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.home-runway-design-box-algorithm {
+  width: 270.28px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid #f6f9fc;
+  background: rgba(246, 249, 252, 0.85);
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-left: 22px;
+}
+
+.home-runway-design-container {
+  display: flex;
+  flex-direction: row;
+  height: 522px;
+  margin-top: 58px;
+  justify-content: center;
+}
+
+.home-runway-prestige-container {
+  display: flex;
+  flex-direction: row;
+  height: 411px;
+  margin-top: 96px;
+  justify-content: center;
+}
+
+.home-runway-design-box-container {
+  width: 640px;
+}
+
+.home-runway-design-description-title {
+  color: #231f20;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 102.4%; /* 46.08px */
+  width: 431px;
+}
+
+.home-runway-prestige-description-title {
+  color: #231f20;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 102.4%; /* 46.08px */
+  width: 457px;
+  text-align: right;
+}
+
+.home-runway-design-description {
+  color: rgba(35, 31, 32, 0.6);
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 35px;
+  width: 431px;
+  margin-top: 47px;
+}
+
+.home-runway-prestige-description {
+  color: rgba(35, 31, 32, 0.6);
+  text-align: right;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 35px;
+  width: 457px;
+  margin-top: 35px;
+}
+
+.home-runway-design-description-container {
+  margin-left: 3.125%;
+  margin-top: 88px;
+}
+
+.home-plane-divider-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.home-plane-divider {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.home-blue-line-divider {
+  display: flex;
+  align-items: center;
+}
+
+.home-runway-prestige-description-container {
+  margin-top: 5px;
+}
+
+.home-plane-divider-container-prestige {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  justify-content: right;
+}
+
+.home-plane-divider-container-title {
+  display: flex;
+  flex-direction: row;
+  margin-top: -17px;
+  margin-left: 51.5%;
+}
+
+.home-runway-prestige-box-row-bottom {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-runway-logistics-container {
+  height: 1169px;
+  background: linear-gradient(180deg, #f6f9fc 0%, rgba(246, 249, 252, 0) 100%);
+  padding-top: 44px;
+}
+
+.home-runway-logistics-title {
+  color: #231f20;
+  text-align: center;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 102.4%; /* 46.08px */
+}
+
+.home-runway-logistics-subtitle {
+  color: #7b7979;
+  text-align: center;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 14px;
+}
+
+.home-runway-logistics-tree-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-runway-logistics-tree-trunk-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.home-runway-logistics-tree-left-arrows {
+  margin-top: 25px;
+  margin-right: -15px;
+}
+
+.home-runway-logistics-tree-left-arrow-middle {
+  margin-top: 280px;
+}
+
+.home-runway-logistics-tree-left-arrow-bottom {
+  margin-top: 247px;
+}
+
+.home-runway-logistics-tree-right-arrows {
+  margin-top: 25px;
+  margin-left: -15px;
+}
+
+.home-runway-logistics-tree-right-arrow-top {
+  margin-top: 135px;
+  z-index: 2;
+  position: relative;
+}
+
+.home-runway-logistics-tree-right-arrow-bottom {
+  margin-top: 327px;
+  z-index: 2;
+  position: relative;
+}
+
+.home-runway-logistics-white-box-left-top {
+  width: 411px;
+  height: 223px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 68px;
+  padding-left: 48px;
+  padding-right: 55px;
+  padding-top: 35px;
+  overflow: hidden;
+  white-space: normal;
+}
+
+.home-runway-logistics-white-box-left-middle {
+  width: 411px;
+  height: 158px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 133px;
+  overflow: hidden;
+  white-space: normal;
+  padding-left: 48px;
+  padding-right: 55px;
+  padding-top: 35px;
+}
+
+.home-runway-logistics-white-box-left-bottom {
+  width: 411px;
+  height: 184px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 160px;
+  overflow: hidden;
+  white-space: normal;
+  padding-left: 48px;
+  padding-right: 55px;
+  padding-top: 35px;
+}
+
+.home-runway-logistics-white-box-title {
+  color: #231f20;
+  text-align: right;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 102.4%;
+  margin-right: 20px;
+}
+
+.home-runway-logistics-white-box-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.home-runway-logistics-white-box-description {
+  width: 412px;
+  color: rgba(35, 31, 32, 0.75);
+  text-align: right;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+.home-start-button-logistic {
+  display: flex;
+  width: 152px;
+  height: 45px;
+  padding: 10px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  border-radius: 6px;
+  background: #0b6fff;
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: normal;
+  border: none;
+}
+
+.home-runway-logistics-white-box-button {
+  display: flex;
+  justify-content: right;
+}
+
+.home-runway-logistics-white-box-right-top {
+  width: 401px;
+  height: 211px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 198px;
+  overflow: hidden;
+  white-space: normal;
+  padding-left: 55px;
+  padding-right: 52px;
+  padding-top: 35px;
+}
+
+.home-runway-logistics-white-box-right-bottom {
+  width: 401px;
+  height: 209px;
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 178px;
+  overflow: hidden;
+  white-space: normal;
+  padding-left: 55px;
+  padding-right: 44px;
+  padding-top: 35px;
+}
+
+.home-runway-logistics-white-box-title-right {
+  color: #231f20;
+  text-align: left;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 102.4%;
+  margin-left: 20px;
+}
+
+.home-runway-logistics-white-box-title-container-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.home-runway-logistics-white-box-description-right {
+  width: 412px;
+  color: rgba(35, 31, 32, 0.75);
+  text-align: left;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 19px;
+}
+
+.home-runway-logistics-tree-left {
+  margin-right: -40px;
+}
+
+.home-runway-logistics-tree-right {
+  margin-left: -40px;
+  z-index: 1;
+  position: relative;
+}
+
+.home-runway-review-carousel-grey-bg {
+  height: 164px;
+  background: rgba(246, 249, 252, 0.85);
+  padding-top: 42px;
+}
+
+.home-runway-review-carousel-title {
+  color: #231f20;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 102.4%; /* 35.84px */
+  margin-left: 20.32%;
+  margin-right: 33.5%;
+}
+
+.home-runway-review-carousel-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-runway-review-carousel-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-runway-review-carousel-nav-left {
+  width: 49px;
+  height: 49px;
+  fill: #fff;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-runway-review-carousel-nav-right {
+  width: 49px;
+  height: 49px;
+  fill: #fff;
+  border-radius: 50%;
+  border: none;
+  margin-left: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-runway-review-carousel-reviews-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -87px;
+}
+
+.home-runway-review-carousel-review {
+  width: 545px;
+  height: 174px;
+  border-radius: 8px;
+  border: 1px solid rgba(35, 31, 32, 0.2);
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+}
+
+.home-runway-review-carousel-review-right {
+  width: 545px;
+  height: 174px;
+  border-radius: 8px;
+  border: 1px solid rgba(35, 31, 32, 0.2);
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  margin-left: 25px;
+}
+
+.home-runway-review-carousel-profile {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  align-items: center;
+}
+
+.home-runway-review-carousel-profile-img {
+  margin-top: 5px;
+}
+
+.home-runway-review-carousel-profile-name {
+  color: #2a75f1;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.07px;
+  margin-top: 10px;
+}
+
+.home-runway-review-carousel-profile-position {
+  color: rgba(35, 31, 32, 0.5);
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.05px;
+  margin-top: 7px;
+}
+
+.home-runway-review-carousel-divider-up-elipse {
+  border-radius: 50%;
+  background: rgba(246, 249, 252, 0.85);
+  width: 15px;
+  height: 15px;
+  margin-top: -7.5px;
+  border-bottom: 1px solid rgba(35, 31, 32, 0.2);
+}
+
+.home-runway-review-carousel-divider-down-elipse {
+  border-radius: 50%;
+  background: rgba(246, 249, 252, 0.85);
+  width: 15px;
+  height: 15px;
+  margin-bottom: -7.5px;
+  border-top: 1px solid rgba(35, 31, 32, 0.2);
+}
+
+.home-runway-review-carousel-divider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-runway-review-carousel-text-container {
+  padding-top: 49px;
+  padding-bottom: 49px;
+  padding-left: 20px;
+  padding-right: 22px;
+  overflow: hidden;
+  white-space: normal;
+  width: 333px;
+}
+
+.home-runway-review-carousel-text {
+  overflow: hidden;
+  white-space: normal;
+  color: rgba(35, 31, 32, 0.75);
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125.9%; /* 18.885px */
+}
+
+.home-runway-review-carousel-profile-border {
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  border: 1px solid #e9e8e8;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-runway-questions-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+
+.home-runway-questions-grey-bg {
+  width: 1120px;
+  height: 258px;
+  border-radius: 8px;
+  background: #f7fafc;
+}
+
+.home-runway-questions-title {
+  color: #231f20;
+  text-align: center;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 102.4%; /* 35.84px */
+  margin-top: 33px;
+}
+
+.home-runway-questions-subtext {
+  color: rgba(0, 0, 2, 0.5);
+  text-align: center;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 450;
+  line-height: 25px;
+  width: 678px;
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}

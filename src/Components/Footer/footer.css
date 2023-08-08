@@ -1,0 +1,138 @@
+.footer-blue-bg {
+  background-image: url("./BlueBG.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+  height: 352px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-padding {
+  padding-top: 41px;
+  padding-bottom: 43px;
+}
+
+.footer-top-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-title {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  text-transform: uppercase;
+}
+
+.footer-divider {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.footer-subtext {
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  margin-top: 18px;
+}
+
+.footer-subtext-top {
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.19px;
+  margin-top: 13px;
+}
+
+.footer-legal-col {
+  margin-left: 90px;
+}
+
+.footer-social-col {
+  margin-left: 162px;
+}
+
+.footer-social-buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 13px;
+}
+
+.footer-social-newletter-button {
+  display: inline-flex;
+  height: 50px;
+  padding: 17px 23px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: #fff;
+  color: #050210;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.footer-social-ig-button {
+  background: none;
+  border: none;
+  margin-left: 16px;
+}
+
+.footer-social-in-button {
+  background: none;
+  border: none;
+  margin-left: 16px;
+}
+
+.footer-middle-divider {
+  display: flex;
+  margin-top: 35px;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex: row;
+  align-items: center;
+  margin-top: 43px;
+}
+
+.footer-logo-text {
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 8.31px;
+}
+
+.footer-logo-copyright {
+  color: #fff;
+  font-family: "ff-real-headline-pro-2", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 661px;
+}
